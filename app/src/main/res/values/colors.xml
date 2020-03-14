@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6500</color>
+    <color name="colorPrimaryDark">#BB4E00</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greyDark">#4E4E4E</color>
+    <color name="greyLight">#B1B1B1</color>
+    <color name="greyLightLight">#DBDBDB</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transp">#00FFFFFF</color>
+    <color name="note">#F0E184</color>
+    <color name="noteBack">#9E8461</color>
+</resources>

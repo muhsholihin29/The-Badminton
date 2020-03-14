@@ -1,0 +1,3 @@
+include ':app', ':giraffeplayer2'
+rootProject.name='The Badminton'
+include ':aFileChooser'

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sstudio.thebadminton">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CobaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoachActivity" />
+        <activity
+            android:name=".menu3.DetailVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".menu3.VideoActivity" />
+        <activity android:name=".menu3.mvp.upload.UploadActivity" />
+        <activity android:name=".coba" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".menu3.mvp.note.CatatanDetailActivity"
+            android:parentActivityName=".menu3.mvp.note.CatatanActivity" />
+        <activity
+            android:name=".menu3.VideoActivity"
+            android:parentActivityName=".menu3.Menu3Activity" />
+        <activity
+            android:name=".menu3.mvp.note.CatatanActivity"
+            android:parentActivityName=".menu3.Menu3Activity" />
+        <activity
+            android:name=".menu1.smash.ForeRoundActivity"
+            android:parentActivityName=".menu1.VarSmashActivity" />
+        <activity
+            android:name=".menu1.smash.RoundHeadActivity"
+            android:parentActivityName=".menu1.VarSmashActivity" />
+        <activity
+            android:name=".menu1.smash.ForehandActivity"
+            android:parentActivityName=".menu1.VarSmashActivity" />
+        <activity
+            android:name=".menu1.netting.NettForeBackActivity"
+            android:parentActivityName=".menu1.VarNettActivity" />
+        <activity
+            android:name=".menu1.netting.NettBackhandActivity"
+            android:parentActivityName=".menu1.VarNettActivity" />
+        <activity
+            android:name=".menu1.netting.NettForehandActivity"
+            android:parentActivityName=".menu1.VarNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett6Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett5Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett4Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett3Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett2Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett1Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNett.KombSmashNett0Activity"
+            android:parentActivityName=".menu1.KombSmashNettActivity" />
+        <activity
+            android:name=".menu1.KombSmashNettActivity"
+            android:parentActivityName=".menu1.Menu1Activity" />
+        <activity
+            android:name=".menu1.VarNettActivity"
+            android:parentActivityName=".menu1.Menu1Activity" />
+        <activity
+            android:name=".menu1.VarSmashActivity"
+            android:parentActivityName=".menu1.Menu1Activity" />
+        <activity
+            android:name=".menu3.Menu3Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".menu2.Menu2Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".menu1.Menu1Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".menu0.Menu0Activity"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashScreen">
+
+        </activity>
+        <activity
+            android:name="com.ipaulpro.afilechooser.FileChooserActivity"
+            android:enabled="@bool/use_activity"
+            android:exported="true"
+            android:icon="@drawable/ic_chooser"
+            android:label="@string/choose_file">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

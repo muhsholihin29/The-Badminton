@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_overview"
+        app:layout_constraintTop_toBottomOf="@+id/txt_overview"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/txt_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="Nama"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_title_label"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_title_label"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_label"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/txt_overview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:text="deskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsideskripsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M Sholi"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_name_label"
+        app:layout_constraintEnd_toEndOf="@+id/txt_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_title"
+        app:layout_constraintTop_toTopOf="@+id/txt_name_label"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="30dp"
+        android:text="Netting"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_title_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/txt_title_label"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_label"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name"
+        app:layout_constraintVertical_bias="0.1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
