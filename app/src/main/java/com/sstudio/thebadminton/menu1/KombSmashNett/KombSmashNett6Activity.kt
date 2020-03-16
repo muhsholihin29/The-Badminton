@@ -11,7 +11,7 @@ class KombSmashNett6Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_komb_smash_nett6)
 
-        toolbar_kombsmashnett6.title = "Round The Head Smash dan Netting Forehand Berpasangan"
+        toolbar_kombsmashnett6.title = getString(R.string.title_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan)
         setSupportActionBar(toolbar_kombsmashnett6)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)

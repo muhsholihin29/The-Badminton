@@ -1,4 +1,36 @@
 <resources>
     <string name="app_name">The Badminton</string>
     <string name="about">M. AULIYA AKHSAN AL WAHIB biasa dipanggil akhsan lahir di Blitar 25 Maret 1997, putra bapak Ahmad Mawahib,S.T dan ibu Addiniyah,S.Pd merupakan mahasiswa Universitas Negeri Malang angkatan 2016 Fakultas Ilmu Keolahragaan dengan prodi Pendidikan Kepelatihan Olahraga Universitas dengan bidang peminatan kepelatihan cabang olahraga bulu tangkis.</string>
+    <string name="title_smash_forehand">Smash Forehand</string>
+    <string name="title_round_the_head_smash">Round The Head Smash</string>
+    <string name="title_smash_forehand_dan_round_the_head_smash">Smash Forehand dan Round The Head Smash</string>
+
+    <string name="title_netting_forehand">Netting Forehand</string>
+    <string name="title_netting_backhand">Netting Backhand</string>
+    <string name="title_Netting_Forehand_dan_Netting_Backhand">Netting Forehand dan Netting Backhand</string>
+
+    <string name="title_Smash_Forehand_dan_Netting_Backhand">Smash Forehand dan Netting Backhand</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand">Round The Head Smash dan Netting Forehand</string>
+    <string name="title_Netting_Forehand_dan_Netting_Backhand_Berpasanagan">Netting Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="title_Smash_Forehand_dan_Netting_Forehand_Berpasanagan">Smash Forehand dan Netting Forehand Berpasanagan</string>
+    <string name="title_Smash_Forehand_dan_Netting_Backhand_Berpasanagan">Smash Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan">Round The Head Smash dan Netting Backhand Berpasangan</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan">Round The Head Smash dan Netting Forehand Berpasangan</string>
+
+    <string name="vid_smash_forehand">Smash Forehand</string>
+    <string name="vid_round_the_head_smash">Round The Head Smash</string>
+    <string name="vid_smash_forehand_dan_round_the_head_smash">Smash Forehand dan Round The Head Smash</string>
+
+    <string name="vid_netting_forehand">Netting Forehand</string>
+    <string name="vid_netting_backhand">Netting Backhand</string>
+    <string name="vid_Netting_Forehand_dan_Netting_Backhand">Netting Forehand dan Netting Backhand</string>
+
+    <string name="vid_Smash_Forehand_dan_Netting_Backhand">https://www.youtube.com/watch?v=bq0v4mgWT5g</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand">Round The Head Smash dan Netting Forehand</string>
+    <string name="vid_Netting_Forehand_dan_Netting_Backhand_Berpasanagan">Netting Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="vid_Smash_Forehand_dan_Netting_Forehand_Berpasanagan">Smash Forehand dan Netting Forehand Berpasanagan</string>
+    <string name="vid_Smash_Forehand_dan_Netting_Backhand_Berpasanagan">Smash Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan">Round The Head Smash dan Netting Backhand Berpasangan</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan">Round The Head Smash dan Netting Forehand Berpasangan</string>
+
 </resources>

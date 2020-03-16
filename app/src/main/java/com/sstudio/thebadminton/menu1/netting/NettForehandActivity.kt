@@ -11,7 +11,7 @@ class NettForehandActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nett_forehand)
 
-        toolbar_netting_fore.title = "Netting Forehand"
+        toolbar_netting_fore.title = getString(R.string.title_netting_forehand)
         setSupportActionBar(toolbar_netting_fore)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)

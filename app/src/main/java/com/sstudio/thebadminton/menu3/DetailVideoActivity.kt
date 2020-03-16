@@ -37,6 +37,7 @@ import android.util.DisplayMetrics
 import android.view.Menu
 import android.view.MenuItem
 import android.view.inputmethod.InputMethodManager
+import com.sstudio.thebadminton.BuildConfig.BASE_URL
 import com.sstudio.thebadminton.Common
 import kotlinx.android.synthetic.main.activity_upload.*
 import kotlinx.android.synthetic.main.content_detail.txt_name
@@ -97,19 +98,7 @@ class DetailVideoActivity : AppCompatActivity(), DetailView {
         txt_overview.text = video?.overview
         txt_title.text = video?.title
         txt_name.text = video?.name
-        video_view.setVideoPath("https://sstudio-project.000webhostapp.com/video/95.mp4").player.start()
-
-//        var media_Controller = MediaController(this)
-        var dm = DisplayMetrics();
-//        this.windowManager.defaultDisplay.getMetrics(dm)
-//
-//        // lebar dan tinggi video view diberi nilai agar menyesuaikan ukuran layout
-//        vv_tes.setMinimumWidth(dm.widthPixels);
-//        vv_tes.setMinimumHeight(dm.heightPixels);
-//
-//        // kontroler video
-//        vv_tes.setMediaController(media_Controller);
-//        vv_tes.setVideoPath("https://sstudio-project.000webhostapp.com/video/95.mp4")
+        video_view.setVideoPath(BASE_URL + video?.videoUrl).player.start()
 
         if (video?.androidId != Common.androidId && !Common.isCoach){
             comment_form.visibility = View.GONE

@@ -49,8 +49,6 @@ class HomeActivity : AppCompatActivity() {
         Common.androidId = Settings.Secure.getString(
             contentResolver,
             Settings.Secure.ANDROID_ID)
-
-        video_view.setVideoPath("https://sstudio-project.000webhostapp.com/video/95.mp4").player.start()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

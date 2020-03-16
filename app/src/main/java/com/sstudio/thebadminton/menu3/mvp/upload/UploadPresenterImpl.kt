@@ -6,7 +6,7 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.util.Base64
 import android.util.Log
-import com.ipaulpro.afilechooser.utils.FileUtils
+//import com.ipaulpro.afilechooser.utils.FileUtils
 import com.sstudio.thebadminton.model.Video
 import com.sstudio.thebadminton.remote.IUploadAPI
 import com.sstudio.thebadminton.remote.RetrofitClient
@@ -95,26 +95,26 @@ class UploadPresenterImpl(private val context: Context, private val uploadView: 
 
 
     private fun insertdt(key: String, name: String, title: String, overview: String, selectedFileUri: Uri?, bitmap: Bitmap?){
-        val androidId= Settings.Secure.getString(
-            context.contentResolver,
-            Settings.Secure.ANDROID_ID)
-        val file = FileUtils.getFile(context, selectedFileUri)
-        Thread(Runnable {
-            apiServices.insertData(key, name, title, overview, file.extension, getStringImage(bitmap as Bitmap), androidId)
-//            apiServices.insertData("insert", "namaa", "judul", "desk", "videoUrl", "aa")
-//            apiServices.insertComment("52", "sh", "ssss")
-                .enqueue(object : Callback<CallbackID> {
-                    override fun onResponse(call: Call<CallbackID>, response: Response<CallbackID>) {
-                        val id = response.body()?.id
-                        id?.let { insertVid(it, file) }
-                    }
-
-                    override fun onFailure(call: Call<CallbackID>, t: Throwable) {
-                        uploadView.dismissDialog()
-                        uploadView.toast(t.message + "onFailure.insertData")
-                    }
-                })
-        }).start()
+//        val androidId= Settings.Secure.getString(
+//            context.contentResolver,
+//            Settings.Secure.ANDROID_ID)
+//        val file = FileUtils.getFile(context, selectedFileUri)
+//        Thread(Runnable {
+//            apiServices.insertData(key, name, title, overview, file.extension, getStringImage(bitmap as Bitmap), androidId)
+////            apiServices.insertData("insert", "namaa", "judul", "desk", "videoUrl", "aa")
+////            apiServices.insertComment("52", "sh", "ssss")
+//                .enqueue(object : Callback<CallbackID> {
+//                    override fun onResponse(call: Call<CallbackID>, response: Response<CallbackID>) {
+//                        val id = response.body()?.id
+//                        id?.let { insertVid(it, file) }
+//                    }
+//
+//                    override fun onFailure(call: Call<CallbackID>, t: Throwable) {
+//                        uploadView.dismissDialog()
+//                        uploadView.toast(t.message + "onFailure.insertData")
+//                    }
+//                })
+//        }).start()
     }
 
     private fun getStringImage(bmp: Bitmap): String {

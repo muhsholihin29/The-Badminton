@@ -48,17 +48,15 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.7.1'
     implementation 'com.squareup.retrofit2:converter-scalars:2.7.1'
-    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
-    implementation project(path: ':aFileChooser')
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+//    implementation project(path: ':aFileChooser')
 
     // Recyclerview
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
-    // ExoPlayer
-    implementation 'com.google.android.exoplayer:exoplayer:2.9.5' // menu1.9.0 has min sdk 26
-
-    implementation "com.github.bumptech.glide:glide:4.10.0"
-    annotationProcessor "com.github.bumptech.glide:compiler:4.10.0"
+    implementation "com.github.bumptech.glide:glide:4.11.0"
+    annotationProcessor "com.github.bumptech.glide:compiler:4.11.0"
+    implementation 'es.voghdev.pdfviewpager:library:1.0.3'
 
     api 'com.github.tcking:giraffeplayer2:0.1.25-full'
     api 'com.github.tcking:ijkplayer-arm64:0.8.8-full'

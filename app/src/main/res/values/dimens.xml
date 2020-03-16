@@ -3,4 +3,6 @@
     <dimen name="padding">10dp</dimen>
     <dimen name="menuText">16sp</dimen>
     <dimen name="margin">16dp</dimen>
+    <dimen name="vid_height">210dp</dimen>
+    <dimen name="title_tutor_video">17sp</dimen>
 </resources>
