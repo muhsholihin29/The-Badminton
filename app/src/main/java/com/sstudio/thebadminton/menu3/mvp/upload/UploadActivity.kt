@@ -18,7 +18,7 @@ import android.widget.MediaController
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-//import com.ipaulpro.afilechooser.utils.FileUtils
+import com.ipaulpro.afilechooser.utils.FileUtils
 import com.sstudio.thebadminton.R
 import com.sstudio.thebadminton.model.Video
 import kotlinx.android.synthetic.main.activity_upload.*
@@ -186,8 +186,8 @@ class UploadActivity : AppCompatActivity(), UploadView {
     }
 
     private fun chooseFile() {
-//        val intent = Intent.createChooser(FileUtils.createGetContentIntent(), "Select a File")
+        val intent = Intent.createChooser(FileUtils.createGetContentIntent(), "Select a File")
 
-//        startActivityForResult(intent, PICK_FILE_REQUEST)
+        startActivityForResult(intent, PICK_FILE_REQUEST)
     }
 }
