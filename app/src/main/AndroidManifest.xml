@@ -1,75 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sstudio.thebadminton">
+    package="com.sstudio.thebadminton2">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:requestLegacyExternalStorage="true"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_badminton"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".menu1.VolIntensLatihanActivity"></activity>
         <activity
-            android:name=".menu3.DetailVideoActivity"
+            android:name=".menu3.video.DetailVideoActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName=".menu3.VideoActivity" />
-        <activity android:name=".menu3.mvp.upload.UploadActivity" />
-        <activity android:name=".coba" />
+            android:parentActivityName=".menu3.video.VideoActivity" />
+        <activity android:name=".menu3.video.UploadActivity" />
+        <activity android:name=".CoachActivity" />
         <activity
             android:name=".AboutActivity"
             android:parentActivityName=".HomeActivity" />
         <activity
-            android:name=".menu3.mvp.note.CatatanDetailActivity"
-            android:parentActivityName=".menu3.mvp.note.CatatanActivity" />
+            android:name="com.sstudio.thebadminton2.menu3.note.NoteDetailActivity"
+            android:parentActivityName="com.sstudio.thebadminton2.menu3.note.NoteActivity" />
         <activity
-            android:name=".menu3.VideoActivity"
-            android:parentActivityName=".menu3.Menu3Activity" />
+            android:name=".menu3.video.VideoActivity"
+            android:parentActivityName=".menu3.video.Menu3Activity" />
         <activity
-            android:name=".menu3.mvp.note.CatatanActivity"
-            android:parentActivityName=".menu3.Menu3Activity" />
+            android:name="com.sstudio.thebadminton2.menu3.note.NoteActivity"
+            android:parentActivityName=".menu3.video.Menu3Activity" />
         <activity
             android:name=".menu1.smash.ForeRoundActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarSmashActivity" />
         <activity
             android:name=".menu1.smash.RoundHeadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarSmashActivity" />
         <activity
             android:name=".menu1.smash.ForehandActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarSmashActivity" />
         <activity
             android:name=".menu1.netting.NettForeBackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarNettActivity" />
         <activity
             android:name=".menu1.netting.NettBackhandActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarNettActivity" />
         <activity
             android:name=".menu1.netting.NettForehandActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.VarNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett6Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett5Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett4Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett3Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett2Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett1Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNett.KombSmashNett0Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".menu1.KombSmashNettActivity" />
         <activity
             android:name=".menu1.KombSmashNettActivity"
@@ -81,7 +98,7 @@
             android:name=".menu1.VarSmashActivity"
             android:parentActivityName=".menu1.Menu1Activity" />
         <activity
-            android:name=".menu3.Menu3Activity"
+            android:name=".menu3.video.Menu3Activity"
             android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".menu2.Menu2Activity"
@@ -100,7 +117,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -11,4 +11,5 @@
     <color name="transp">#00FFFFFF</color>
     <color name="note">#F0E184</color>
     <color name="noteBack">#9E8461</color>
+    <color name="blue">#009ECD</color>
 </resources>

@@ -59,7 +59,7 @@
                         android:text="Variasi Smash"
                         android:textStyle="bold"
                         android:textSize="@dimen/menuText"
-                        android:textColor="@color/white" />
+                        android:textColor="@dimen/font" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -92,7 +92,7 @@
                         android:text="Variasi Netting"
                         android:textStyle="bold"
                         android:textSize="@dimen/menuText"
-                        android:textColor="@color/white" />
+                        android:textColor="@dimen/font" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -125,7 +125,41 @@
                         android:text="Kombinasi Variasi Smash dan Netting"
                         android:textStyle="bold"
                         android:textSize="@dimen/menuText"
-                        android:textColor="@color/white" />
+                        android:textColor="@dimen/font" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/menu_vol_intens_latihan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/menu_varsmashnett_kombinasi"
+                app:layout_constraintVertical_bias="0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Volume dan Intensitas Latihan Smash dan Netting"
+                        android:textColor="@dimen/font"
+                        android:textSize="@dimen/menuText"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

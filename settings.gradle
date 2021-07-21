@@ -1,3 +1,2 @@
-include ':app', ':giraffeplayer2'
+include ':app'
 rootProject.name='The Badminton'
-include ':aFileChooser'

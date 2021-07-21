@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,17 +16,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar_home"
-        app:layout_constraintVertical_bias="0.636">
+        app:layout_constraintVertical_bias="0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="60dp">
 
             <ImageView
                 android:id="@+id/video_view"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
-                android:src="@drawable/splash"
+                android:layout_height="150dp"
+                android:src="@drawable/looogo"
+                android:padding="@dimen/padding"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -64,8 +67,8 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Macam-Macam Teknik Bulu Tangkis"
-                        android:textColor="@color/white"
+                        android:text="Macam-Macam Teknik Bulutangkis"
+                        android:textColor="@dimen/font"
                         android:textSize="@dimen/menuText"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="@+id/iv_home_0"
@@ -111,7 +114,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:text="Variasi Smash dan Netting"
-                        android:textColor="@color/white"
+                        android:textColor="@dimen/font"
                         android:textSize="@dimen/menuText"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="@+id/iv_home_1"
@@ -157,8 +160,8 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Peraturan Permainan Bulu Tangkis"
-                        android:textColor="@color/white"
+                        android:text="Peraturan Permainan Bulutangkis"
+                        android:textColor="@dimen/font"
                         android:textSize="@dimen/menuText"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="@+id/iv_home_2"
@@ -203,8 +206,8 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Catatan"
-                        android:textColor="@color/white"
+                        android:text="Catatan dan Publikasi"
+                        android:textColor="@dimen/font"
                         android:textSize="@dimen/menuText"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="@+id/iv_menu_catatan_video"

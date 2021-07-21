@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <dimen name="padding">10dp</dimen>
     <dimen name="menuText">16sp</dimen>
     <dimen name="margin">16dp</dimen>
     <dimen name="vid_height">210dp</dimen>
     <dimen name="title_tutor_video">17sp</dimen>
+    <dimen name="font" tools:ignore="ReferenceType">@color/black</dimen>
 </resources>

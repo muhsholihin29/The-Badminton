@@ -1,36 +1,36 @@
 <resources>
-    <string name="app_name">The Badminton</string>
-    <string name="about">M. AULIYA AKHSAN AL WAHIB biasa dipanggil akhsan lahir di Blitar 25 Maret 1997, putra bapak Ahmad Mawahib,S.T dan ibu Addiniyah,S.Pd merupakan mahasiswa Universitas Negeri Malang angkatan 2016 Fakultas Ilmu Keolahragaan dengan prodi Pendidikan Kepelatihan Olahraga Universitas dengan bidang peminatan kepelatihan cabang olahraga bulu tangkis.</string>
-    <string name="title_smash_forehand">Smash Forehand</string>
-    <string name="title_round_the_head_smash">Round The Head Smash</string>
-    <string name="title_smash_forehand_dan_round_the_head_smash">Smash Forehand dan Round The Head Smash</string>
+    <string name="app_name" translatable="false">The Badminton</string>
+    <string name="about" translatable="false">M. AULIYA AKHSAN AL WAHIB biasa dipanggil akhsan lahir di Blitar 25 Maret 1997, putra bapak Ahmad Mawahib,S.T dan ibu Addiniyah,S.Pd merupakan mahasiswa Universitas Negeri Malang angkatan 2016 Fakultas Ilmu Keolahragaan dengan prodi Pendidikan Kepelatihan Olahraga Universitas dengan bidang peminatan kepelatihan cabang olahraga bulutangkis.</string>
+    <string name="title_smash_forehand" translatable="false">Smash Forehand</string>
+    <string name="title_round_the_head_smash" translatable="false">Round The Head Smash</string>
+    <string name="title_smash_forehand_dan_round_the_head_smash" translatable="false">Smash Forehand dan Round The Head Smash</string>
 
-    <string name="title_netting_forehand">Netting Forehand</string>
-    <string name="title_netting_backhand">Netting Backhand</string>
-    <string name="title_Netting_Forehand_dan_Netting_Backhand">Netting Forehand dan Netting Backhand</string>
+    <string name="title_netting_forehand" translatable="false">Netting Forehand</string>
+    <string name="title_netting_backhand" translatable="false">Netting Backhand</string>
+    <string name="title_Netting_Forehand_dan_Netting_Backhand" translatable="false">Netting Forehand dan Netting Backhand</string>
 
-    <string name="title_Smash_Forehand_dan_Netting_Backhand">Smash Forehand dan Netting Backhand</string>
-    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand">Round The Head Smash dan Netting Forehand</string>
-    <string name="title_Netting_Forehand_dan_Netting_Backhand_Berpasanagan">Netting Forehand dan Netting Backhand Berpasanagan</string>
-    <string name="title_Smash_Forehand_dan_Netting_Forehand_Berpasanagan">Smash Forehand dan Netting Forehand Berpasanagan</string>
-    <string name="title_Smash_Forehand_dan_Netting_Backhand_Berpasanagan">Smash Forehand dan Netting Backhand Berpasanagan</string>
-    <string name="title_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan">Round The Head Smash dan Netting Backhand Berpasangan</string>
-    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan">Round The Head Smash dan Netting Forehand Berpasangan</string>
+    <string name="title_Smash_Forehand_dan_Netting_Backhand" translatable="false">Smash Forehand dan Netting Backhand</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand" translatable="false">Round The Head Smash dan Netting Forehand</string>
+    <string name="title_Netting_Forehand_dan_Netting_Backhand_Berpasanagan" translatable="false">Netting Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="title_Smash_Forehand_dan_Netting_Forehand_Berpasanagan" translatable="false">Smash Forehand dan Netting Forehand Berpasanagan</string>
+    <string name="title_Smash_Forehand_dan_Netting_Backhand_Berpasanagan" translatable="false">Smash Forehand dan Netting Backhand Berpasanagan</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan" translatable="false">Round The Head Smash dan Netting Backhand Berpasangan</string>
+    <string name="title_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan" translatable="false">Round The Head Smash dan Netting Forehand Berpasangan</string>
 
-    <string name="vid_smash_forehand">Smash Forehand</string>
-    <string name="vid_round_the_head_smash">Round The Head Smash</string>
-    <string name="vid_smash_forehand_dan_round_the_head_smash">Smash Forehand dan Round The Head Smash</string>
+    <string name="vid_smash_forehand" translatable="false">video-tutor/4%20Smash%20Forehand%20-1.m4v</string>
+    <string name="vid_round_the_head_smash" translatable="false">video-tutor/5%20Round%20The%20Head%20Smash%20-1.m4v</string>
+    <string name="vid_smash_forehand_dan_round_the_head_smash" translatable="false">video-tutor/6%20Forehand%20Smash%20Dan%20Roun%20The%20Head%20Smash%20-1.m4v</string>
 
-    <string name="vid_netting_forehand">Netting Forehand</string>
-    <string name="vid_netting_backhand">Netting Backhand</string>
-    <string name="vid_Netting_Forehand_dan_Netting_Backhand">Netting Forehand dan Netting Backhand</string>
+    <string name="vid_netting_forehand" translatable="false">video-tutor/1%20Netting%20Forehand%20-1.m4v</string>
+    <string name="vid_netting_backhand" translatable="false">video-tutor/2%20Netting%20Backhand%20-1.m4v</string>
+    <string name="vid_Netting_Forehand_dan_Netting_Backhand" translatable="false">video-tutor/3%20Netiing%20Forehand%20Dan%20Netting%20Backhand-1.m4v</string>
 
-    <string name="vid_Smash_Forehand_dan_Netting_Backhand">https://www.youtube.com/watch?v=bq0v4mgWT5g</string>
-    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand">Round The Head Smash dan Netting Forehand</string>
-    <string name="vid_Netting_Forehand_dan_Netting_Backhand_Berpasanagan">Netting Forehand dan Netting Backhand Berpasanagan</string>
-    <string name="vid_Smash_Forehand_dan_Netting_Forehand_Berpasanagan">Smash Forehand dan Netting Forehand Berpasanagan</string>
-    <string name="vid_Smash_Forehand_dan_Netting_Backhand_Berpasanagan">Smash Forehand dan Netting Backhand Berpasanagan</string>
-    <string name="vid_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan">Round The Head Smash dan Netting Backhand Berpasangan</string>
-    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan">Round The Head Smash dan Netting Forehand Berpasangan</string>
+    <string name="vid_Smash_Forehand_dan_Netting_Backhand" translatable="false">video-tutor/7%20Smash%20Forehand%20Dan%20Netting%20Backhand-1.m4v</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand" translatable="false">video-tutor/8%20Round%20The%20Head%20Smash%20Dan%20Netting%20Forehand-1.m4v</string>
+    <string name="vid_Netting_Forehand_dan_Netting_Backhand_Berpasanagan" translatable="false">video-tutor/9%20Netting%20Forehand%20Dan%20Netting%20Backhand%20Berpasangan-1.m4v</string>
+    <string name="vid_Smash_Forehand_dan_Netting_Forehand_Berpasanagan" translatable="false">video-tutor/10%20Smash%20Forehand%20Dan%20Netting%20Forehand%20Berpasangan-1.m4v</string>
+    <string name="vid_Smash_Forehand_dan_Netting_Backhand_Berpasanagan" translatable="false">video-tutor/12%20Smash%20Forehan%20dan%20Netting%20Backhand%20.m4v</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Backhand_Berpasangan" translatable="false">video-tutor/11%20Round%20The%20Head%20Smash%20Dan%20Netting%20Backhand%20Berpasangan%20-1.m4v</string>
+    <string name="vid_Round_The_Head_Smash_dan_Netting_Forehand_Berpasangan" translatable="false">video-tutor/13%20Round%20the%20head%20smash%20dan%20netting%20forehand.m4v</string>
 
 </resources>

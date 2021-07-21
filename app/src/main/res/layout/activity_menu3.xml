@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu3.Menu3Activity">
+    tools:context=".menu3.video.Menu3Activity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_menu3"
@@ -52,9 +52,9 @@
 
                     <ImageView
                         android:id="@+id/iv_menu_catatan_catatanlatihhan"
-                        android:layout_width="wrap_content"
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher_round"
+                        android:src="@drawable/menu4"
                         android:padding="@dimen/padding"
                         app:layout_constraintHorizontal_bias="0"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +73,7 @@
                         android:text="Catatan Latihan"
                         android:textStyle="bold"
                         android:textSize="@dimen/menuText"
-                        android:textColor="@color/white" />
+                        android:textColor="@dimen/font" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -97,9 +97,9 @@
 
                     <ImageView
                         android:id="@+id/iv_menu_catatan_video"
-                        android:layout_width="wrap_content"
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/ic_launcher_round"
+                        android:src="@drawable/cam"
                         android:padding="@dimen/padding"
                         app:layout_constraintHorizontal_bias="0"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,7 +118,7 @@
                         android:text="Rekam Video"
                         android:textStyle="bold"
                         android:textSize="@dimen/menuText"
-                        android:textColor="@color/white" />
+                        android:textColor="@dimen/font" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,13 +18,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Peraturan Permainan Bulu Tangkis"
+    <com.sstudio.thebadminton2.HackyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_menu2" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_menu0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
